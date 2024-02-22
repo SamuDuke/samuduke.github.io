@@ -1,0 +1,3 @@
+-https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-github-pages-site
+-https://markodenic.com/html-tips/
+-https://markodenic.com/free-web-development-resources/#coding-challenge-platforms

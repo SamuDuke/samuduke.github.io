@@ -1,0 +1,20 @@
+body {
+    background-color: #dceaff;
+}
+nav {
+    background-color: #1e61c5;
+}
+
+.col {
+    background-color: #1e61c5;
+    color: #fff;
+    border-radius: 10px;
+    border-color: #000;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.col a:hover {
+    background-color: #dceaff;
+    color: #000;
+}

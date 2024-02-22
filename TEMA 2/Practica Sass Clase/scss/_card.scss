@@ -1,0 +1,21 @@
+/*Definicion de cards*/
+$size_cards:(
+    sm: 120px,
+    md: 180px,
+    lg: 250px,
+);
+
+/* Tamaño de las cards */
+@each $name, $size in $size_cards {
+    .card-#{$name} {
+        width: $size;
+        height: $size*2;
+    }
+}
+
+.card {
+    background-color: #e7e5e5;
+    border-radius: 8px;
+    @include shadowMixin (10px,10px,#000);
+    
+}

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tips</title>
+    <base target="_blank">
+    <link rel="icon" type="image/png" href="./images/icons8-favicon-16.png?v=2" />
+</head>
+
+<body>
+    <h1>Tips HTML</h1>
+    <div>
+        <h2>1.El atributo "loading=lazy"</h2>
+        <details>
+            <summary>Despliegue para más información</summary>
+            <p>Puedes utilizar el atributo "loading=lazy" para que no se cargue la
+                imagen hasta que el usuario se desplace a ella, así mejorarás el rendimeinto de tu página.
+            </p>
+            <img src='./images/logoRibera.jpg' loading='lazy' height="200" width="200" alt='Texto Alternativo'>
+        </details>
+    </div>
+    <div>
+        <h2>2.Email, call and SMS links</h2>
+        <details>
+            <summary>Despliegue para más información</summary>
+            <p>Dentro de los atributos de un enlace podemos referenciar un email,
+                un telefono o un sms dependiendo de lo que queramos.
+            </p>
+            <a href="mailto:{email}?subject={subject}&body={content}">
+                Send us an email
+            </a><br>
+
+            <a href="tel:{phone}">
+                Call us
+            </a><br>
+
+            <a href="sms:{phone}?body={content}">
+                Send us a message
+            </a>
+        </details>
+    </div>
+    <div>
+        <h2>3.Listas ordenadas y su atributo "start"</h2>
+        <details>
+            <summary>Despliegue para más información</summary>
+            <p>Con el atributo "start" podemos empezar una lista desde el valor que queramos.</p>
+            <ol start="10">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>Python</li>
+            </ol>
+        </details>
+    </div>
+    <div>
+        <h2>4.La etiqueta "meter"</h2>
+        <details>
+            <summary>Despliegue para más información</summary>
+            <p>Puedes utilizar la etiqueta "meter" para marcar cantidades sin necesidad de CSS.</p>
+            <label for="valor1">Bajo</label>
+            <meter id="valor1" min="0" max="100" low="30" high="75" optimum="80" value="25"></meter>
+            <label for="valor2">Medio</label>
+            <meter id="valor2" min="0" max="100" low="30" high="75" optimum="80" value="50"></meter>
+            <label for="valor3">Alto</label>
+            <meter id="valor3" min="0" max="100" low="30" high="75" optimum="80" value="85"></meter>
+        </details>
+    </div>
+    <div>
+        <h2>5.HTML Native Search</h2>
+        <details>
+            <summary>Despliegue para más información</summary>
+            <p>¿Quien da más guerra en clase?</p>
+            <input list="items">
+            <datalist id="items">
+                <option value="Roberto"></option>
+                <option value="Samuel"></option>
+                <option value="Edu"></option>
+                <option value="Rebeca"></option>
+                <option value="Dani"></option>
+                <option value="Diego"></option>
+            </datalist>
+        </details>
+    </div>
+    <div>
+        <h2>6.El elemento Fieldset de formularios</h2>
+        <details>
+            <summary>Despliegue para más información</summary>
+            <form>
+                <fieldset>
+                    <legend>Elige tu lenguaje favorito</legend>
+                    <input type="radio" id="javascript" name="lenguaje">
+                    <label for="javascript">JavaScript</label><br />
+                    <input type="radio" id="python" name="lenguaje">
+                    <label for="python">Python</label><br />
+                    <input type="radio" id="java" name="lenguaje">
+                    <label for="java">Java</label><br />
+                </fieldset>
+            </form>
+        </details>
+    </div>
+    <div>
+        <h2>7."Window.opener"</h2>
+        <details>
+            <summary>Despliegue para más información</summary>
+            <p>Con el atributo "target = _blank" hacemos que se abra en una nueva pestaña el enlace.</p>
+            <a href="https://markodenic.com/" target="_blank" rel="noopener">
+                Marko's website
+            </a>
+        </details>
+    </div>
+    <div>
+        <h2>8.El elemento Base</h2>
+        <details>
+            <summary>Despliegue para más información</summary>
+            <p>En la cabecera de este HTML hemos utilizado la etiqueta "base" con el atributo "target=_blank"
+                que hace que todos los enlaces se abran en una pestaña nueva.
+            </p>
+            <div>
+                Este enlace se abrirá en una nueva pestaña:<br>
+                <a href="https://freecodetools.org/">Free Code Tools</a>
+            </div>
+        </details>
+    </div>
+    <div>
+        <h2>9.Favicon</h2>
+        <details>
+            <summary>Despliegue para más información</summary>
+            <p>Para actualizar el icono de tu página web puedes forzar a los buscadores a que tengan la nueva versión
+                añadiendo "?v=2" al nombre de nuestro icono.
+            </p>
+        </details>
+    </div>
+    <div>
+        <h2>10.El atributo "spellcheck"</h2>
+        <details>
+            <summary>Despliegue para más información</summary>
+            <p>El atributo "spellcheck" sirve para definir cuando un elemento debe ser corregido por tener errores.</p>
+            <label for="input1">Spellcheck activado</label><br>
+            <input type="text" id="input1" spellcheck="true"><br><br>
+            <label for="input2">Spellcheck desactivado</label><br>
+            <input type="text" id="input2" spellcheck="false">
+        </details>
+    </div>
+    <div>
+        <h2>11.Native HTML "sliders"</h2>
+        <details>
+            <summary>Despliegue para más información</summary>
+            <p></p>
+            <label for="volumen">Volumen:</label><br>
+            <input type="range" id="volumen" name="volumen" min="0" max="10"><br><br>
+            <label for="resultado">Tu volumen:</label><br>
+            <input type="number" id="resultado" name="resultado">
+            <script>
+                const volume = document.getElementById('volumen');
+                const result = document.getElementById('resultado');
+                result.value = volume.value;
+
+                volume.addEventListener('change', () => {
+                    result.value = volume.value;
+                });
+            </script>
+        </details>
+    </div>
+    <div>
+        <h2>12.HTML Acordeón</h2>
+        <div>
+            <details>
+                <summary>
+                    Pincha aquí para más detalles
+                </summary>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita fugit ad quas odit rerum natus
+                    soluta
+                    voluptatibus assumenda cupiditate? Consectetur ex, excepturi debitis explicabo mollitia ratione
+                    aperiam
+                    perspiciatis corporis. Recusandae!
+                </p>
+            </details>
+        </div>
+    </div>
+    <div>
+        <h2>13.La etiqueta "mark"</h2>
+        <details>
+            <summary>Despliegue para más información</summary>
+            <p>La etiqueta "mark" se utiliza para <mark>remarcar</mark> texto.</p>
+        </details>
+    </div>
+    <div>
+        <h2>14.El atributo "download"</h2>
+        <details>
+            <summary>Despliegue para más información</summary>
+            <p>El atributo "download" sirve para descargar directamente un enlace sin tener que navegar a él primero.
+            </p>
+            <a href="./images/logoRibera.jpg" download>Descargar imagen Logo Ribera de Castilla</a>
+        </details>
+    </div>
+    <div>
+        <h2>15.Consejo de rendimiento</h2>
+        <details>
+            <summary>Despliegue para más información</summary>
+            <p>Utilizar la extensión .webp para el formato de nuestras imagenes las hará estas más pequeñas y aumentará
+                el rendimiento de nuestra página web.
+            </p>
+            <picture>
+                <source srcset="./images/logoRibera.webp" type="image/webp">
+                <img src="./images/logoRibera.webp" alt="logo" height="300px" width="300px">
+            </picture>
+        </details>
+    </div>
+    <div>
+        <h2>16.El atributo "poster" de video</h2>
+        <details>
+            <summary>Despliegue para más información</summary>
+            <p>El atributo "poster en las etiquetas de video sirve para mostrar una imagen mientras el video se esta
+                descargando o antes de que se empiece a reproducir."
+            </p>
+            <pre>
+                &lt;video poster="path/to/image"&gt;&lt;/video&gt;
+            </pre>
+        </details>
+    </div>
+    <div>
+        <h2>17.El "input" de tipo "search"</h2>
+        <details>
+            <summary>Despliegue para más información</summary>
+            <p>El input de tipo "search" funciona igual que el de tipo "text" a diferencia que contiene un boton para
+                limpiar el campo.
+            </p>
+            <form>
+                <label for="texto">Input de tipo "text"</label><br>
+                <input type="text" id="texto" name="texto"><br><br>
+                <label for="busqueda">Input de tipo "search"</label><br>
+                <input type="search" id="busqueda" name="busqueda">
+            </form>
+        </details>
+    </div>
+    <div>
+        <h2>18.La etiqueta "pre"</h2>
+        <details>
+            <summary>Despliegue para más información</summary>
+            <p>La etiqueta "pre" sirve para presentar el texto exactamente como esta escrito en HTML.</p>
+            <h3>Con pre:</h3>
+            <pre>
+                .center {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;   
+                } 
+            </pre>
+            <h3>Sin pre:</h3>
+            <p>
+                .center {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                }
+            </p>
+        </details>
+    </div>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+@mixin btnMixin ($border){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: $border;
+    color: #fff;
+}
+
+@mixin shadowMixin ($x, $y, $color){
+    box-shadow: $x $y $color;
+}

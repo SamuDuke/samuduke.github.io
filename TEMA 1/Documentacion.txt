@@ -1,0 +1,26 @@
+Material2 para colores:
+-https://m2.material.io/design/color/the-color-system.html
+
+
+El prototipo de nuestro cliente vista movil y vista sobremesa con figma 3 diseños(material, boostrap y propio).
+
+Documentación TEMA 1:
+- ENLACES DE LOS BLOGS Entrevista Cliente del Aula Virtual
+- Documentación de las paletas de colores del Aula Virtual
+- Fuentes documentación leída del Aula Virtual
+- Iconos documentación leída del Aula Virtual
+- Creación de Primer Proyecto de Balsamiq (https://balsamiq.com/tutorials/articles/firstwireframe/)
+Prácticas:
+- Entrevista de la empresa de mi compañero
+- Paleta de Colores por nosotros
+- Balsamiq práctica
+- Práctica FIGMA (3 diseños, 1 con material, otro con bootstrap y otro con diseño propio(En móvil y en escritorio))
+Herramientas:
+- Figma (Prototipado)
+- Balsamiq (Prototipado)
+- URLS de paletas de colores, palettone, etc...
+	Paletton: https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
+	MyColor: https://mycolor.space/
+- Google Fonts (Iconos y Fuentes)(https://fonts.google.com/)
+- PlugIn de Material Design (https://www.figma.com/community/plugin/1088610476491668236)
+- PlugIn de Bootstrap (https://www.figma.com/community/file/876022745968684318)

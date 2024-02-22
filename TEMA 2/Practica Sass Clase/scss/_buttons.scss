@@ -1,0 +1,39 @@
+/*Definicion de botones*/
+// Mapa con tamaño de botones
+$size_btn:(
+    xs: 40px,
+    sm: 80px,
+    md: 100px,
+    lg: 120px,
+    xl: 160px,
+    xxl: 200px
+);
+//Mapa con colores de botones
+$colors_btn:(
+    primary: $primary_color,
+    secondary: $secondary_color,
+    terciary:$terciary_color,
+    danger: $danger_color,
+    info: $info_color
+);
+/* Tamaño de los botones */
+@each $name, $size in $size_btn {
+    .btn-#{$name} {
+        width: $size;
+        height: $size;
+    }
+}
+/* Color de los botones */
+@each $name, $color in $colors_btn {
+    .btn-#{$name} {
+        background-color: $color;
+    }
+}
+
+.btn{
+    @include btnMixin($border);
+    &:hover{
+        background-color: $secondary_color;
+        color: $primary_color;
+    }
+}
